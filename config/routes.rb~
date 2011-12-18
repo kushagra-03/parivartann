@@ -1,8 +1,4 @@
 Parivartann::Application.routes.draw do
-
-resources :homepage , :aboutus ,:contactus ,:gallery
-
-
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
