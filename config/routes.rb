@@ -1,7 +1,16 @@
 Parivartann::Application.routes.draw do
 
-resources :homepage , :aboutus ,:contactus ,:gallery
+  get "gallery/index"
 
+  root :to => 'main#home'
+
+  get "main/home"
+
+  get "main/about_us"
+
+  get "main/contact_us"
+
+  get "main/events"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
