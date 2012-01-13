@@ -1,21 +1,23 @@
 <html>
-<head>
-<title>Parivartan</title>
-</head>
+    <head>
+        <title>Parivartan</title>
+        <link type="text/css" rel="stylesheet" href="public/stylesheets/parivartann.css"/>
+    </head>
 
 
-<body>
-<h1>Parivartann </h1>
+    <body>
+    <div id='all_content'>
+        <h1>Parivartann </h1>
 
 
 
-<%= link_to "Homepage" , :controller => "main" , :action => "home"%>
-<%= link_to "About us" , :controller => "main" , :action => "about_us"%>
-<%= link_to "Contact Us" , :controller => "main", :action => "contact_us"%>
-<%= link_to "Events" , :controller => "main", :action => "events"%>
-<%= link_to "Gallery" , :controller => "gallery" %>
-<%# link_to "Events"%>
-</body>
+        <%= link_to "Homepage" , :controller => "main" , :action => "home"%>
+        <%= link_to "About us" , :controller => "main" , :action => "about_us"%>
+        <%= link_to "Contact Us" , :controller => "main", :action => "contact_us"%>
+        <%= link_to "Events" , :controller => "main", :action => "events"%>
+        <%= link_to "Gallery" , :controller => "gallery" %>
+    </div>
+    </body>
 
 
 

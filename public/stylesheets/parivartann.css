@@ -1,0 +1,14 @@
+body {
+        background-image: url(../images/background.jpg);
+        background-attachment: fixed;
+        font-family: sans-serif;
+        color: #fdf79a;
+        font-size: small;
+}
+
+#all_content{
+        width: 800px;
+        background-color: #d1721e;
+        margin-left: auto;
+        margin-right: auto;
+}
