@@ -1,5 +1,7 @@
 Parivartann::Application.routes.draw do
 
+  get "home/index"
+
     resource :main
     root :to => "main#home"
 
