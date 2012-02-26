@@ -1,0 +1,46 @@
+body {
+	padding-left:10%;
+	padding-right:10%;
+	background-image:url('http://2.bp.blogspot.com/_uTMot8D-v_Q/TExVFtg5RpI/AAAAAAAAEUg/Mfj3TvGNLfo/s1600/P1010128.jpg');
+	background-repeat:repeat;
+	background-attachment:fixed;
+
+}
+
+h1 {
+	margin: 0;
+	padding-left:10%;
+}
+
+#header ul {
+	list-style: none;
+	padding-left:5%;
+	margin:0;
+}
+
+#header li {
+	float: right;
+	border: 0.5px solid;
+	border-bottom-width: 0;
+}
+
+#header li a {
+	padding: 0 1em;
+}
+
+#header #selected {
+	position: relative;
+	top: 1px;
+	background: gray;
+}
+
+#content {
+	border: 0.5px solid;
+	padding:30px;
+	clear: both;
+}
+
+#images {
+	width:700px;
+	padding-left:10%;
+}

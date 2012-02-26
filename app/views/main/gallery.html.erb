@@ -1,11 +1,3 @@
-<html>
-<head>
-<title>Parivartan</title>
-<%= stylesheet_link_tag "application" %>
-</head>
-
-
-<body>
 <h1>Parivartann </h1>
 
 <div id="header">
@@ -14,13 +6,15 @@
 	<li><a><%= link_to "About us" , :controller => "main" , :action => "about_us"%></a></li>
 	<li><a><%= link_to "Contact Us" , :controller => "main", :action => "contact_us"%></a></li>
 	<li><a><%= link_to "Events" , :controller => "main", :action => "events"%></a></li>
-	<li><a><%= link_to "Gallery" , :controller => "main", :action => "gallery"%></a></li>
+	<li id= "selected"><a><%= link_to "Gallery" , :controller => "main", :action => "gallery"%></a></li>
 </ul>
 
 </div>
 
-<div id="sidebar">
+<div id = "content">
 
+<div id = "images">
+<iframe class="imgur-album" width="100%" height="550" frameborder="0" src="http://imgur.com/a/5RsQ2/embed"></iframe>
 </div>
 
-</html>
+</div>

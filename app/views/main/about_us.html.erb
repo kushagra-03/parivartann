@@ -5,14 +5,20 @@
 
 
 <body>
+<body>
 <h1>Parivartann </h1>
 
-<%= link_to "Homepage" , :controller => "main" , :action => "home"%>
-<%= link_to "About us" , :controller => "main" , :action => "about_us"%>
-<%= link_to "Contact Us" , :controller => "main", :action => "contact_us"%>
-<%= link_to "Gallery" , :controller => "gallery" %>
-<%# link_to "Events"%>
+<div id="header">
 
+<ul>
+	<li id= "selected"><a><%= link_to "About us" , :controller => "main" , :action => "about_us"%></a></li>
+	<li><a><%= link_to "Contact Us" , :controller => "main", :action => "contact_us"%></a></li>
+	<li><a><%= link_to "Events" , :controller => "main", :action => "events"%></a></li>
+	<li><a><%= link_to "Gallery" , :controller => "main", :action => "gallery"%></a></li>
+</ul>
+
+</div>
+<div id="content">
 <h2> OUR MISSION </h2>
 
 <blockquote> "With great power, comes great responsibility"</blockquote>
@@ -59,7 +65,7 @@ Vocational training, basic education, basic necessities of life, Awareness regar
 <li>We believe in non caste discrimination, our only discrimination base is economic class</li>
 <li>We believe in transparency of work we and usage of funds</li>
 </ul>
-
+</div>
 </body>
 
 
