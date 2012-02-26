@@ -5,19 +5,13 @@
 
 
 <body>
-<body>
 <h1>Parivartann </h1>
 
-<div id="header">
-
-<ul>
-	<li id= "selected"><a><%= link_to "About us" , :controller => "main" , :action => "about_us"%></a></li>
-	<li><a><%= link_to "Contact Us" , :controller => "main", :action => "contact_us"%></a></li>
-	<li><a><%= link_to "Events" , :controller => "main", :action => "events"%></a></li>
-	<li><a><%= link_to "Gallery" , :controller => "main", :action => "gallery"%></a></li>
-</ul>
-
-</div>
+<%= link_to "Homepage" %>
+<%= link_to "About us" , :controller => "aboutus"%>
+<%= link_to "Contact Us"%>
+<%= link_to "Gallery"%>
+<%# link_to "Events"%>
 
 <h2> OUR MISSION </h2>
 

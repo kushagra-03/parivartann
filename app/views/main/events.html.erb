@@ -1,7 +1,12 @@
-<h1>Main#events</h1>
+<h1>Parivartann </h1>
 
-        <%= link_to "Homepage" , :controller => "main" , :action => "home"%>
-        <%= link_to "About us" , :controller => "main" , :action => "about_us"%>
-        <%= link_to "Contact Us" , :controller => "main", :action => "contact_us"%>
-        <%= link_to "Events" , :controller => "main", :action => "events"%>
-        <%= link_to "Gallery" , :controller => "gallery" %>
+<div id="header">
+
+<ul>
+	<li><a><%= link_to "About us" , :controller => "main" , :action => "about_us"%></a></li>
+	<li><a><%= link_to "Contact Us" , :controller => "main", :action => "contact_us"%></a></li>
+	<li id= "selected"><a><%= link_to "Events" , :controller => "main", :action => "events"%></a></li>
+	<li><a><%= link_to "Gallery" , :controller => "main", :action => "gallery"%></a></li>
+</ul>
+
+</div>

@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>Parivartan</title>
+</head>
+
+
+<body>
+<h1>Parivartann </h1>
+
+
+
+<%= link_to "Homepage" %>
+<%= link_to "Aboutus", :controller => "aboutus"%>
+<%= link_to "Contactus"%>
+<%= link_to "Gallery"%>
+<%# link_to "Events"%>
+</body>
+
+
+
+</html>
