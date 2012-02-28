@@ -14,7 +14,7 @@
 <div id = "content">
 
 <div id = "images">
-<a href="http://imgur.com/a/5RsQ2/embed"></a>
+<iframe class="imgur-album" width="100%" height="550" frameborder="0" src="http://imgur.com/a/5RsQ2/embed"></iframe>
 </div>
 
 </div>

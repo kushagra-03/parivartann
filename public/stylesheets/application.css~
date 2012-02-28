@@ -1,7 +1,8 @@
 body {
 	padding-left:10%;
 	padding-right:10%;
-	background-image:url('http://thecraftingchicks.com/wp-content/uploads/2010/06/monogram-kids-wall-tracing-letters.jpg');
+	float:right;
+	background-image:url('../images/backgound.jpg'));
 	background-repeat:repeat;
 	background-attachment:fixed;
 
@@ -35,12 +36,26 @@ h1 {
 }
 
 #content {
-	border: 0.5px solid;
 	padding:30px;
 	clear: both;
+	background-image:url('../images/real-blackboard.jpg');
+	background-repeat: no-repeat;
+	position:relative;
+	min-height: 700px;
+	color: white;
+
 }
 
 #images {
 	width:700px;
-	padding-left:10%;
+	padding-left:5%;
+	padding-top:5%;
+}
+
+#sidebar {
+	float: right;
+	width: 100px;
+	height: 550px;
+	margin: 5% 5% 0% 0%;
+	border: 1px solid;
 }

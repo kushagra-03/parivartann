@@ -10,7 +10,7 @@ Parivartann::Application.routes.draw do
 
   get "main/events"
 
-  get "main/index"
+  get "main/gallery"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
