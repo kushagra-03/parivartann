@@ -1,14 +1,19 @@
 <html>
 <head>
-<title>Parivartan</title>
+<title>Parivartann</title>
+
+<%= stylesheet_link_tag "application" %>
+
 </head>
 
 
 <body>
-<body>
-<h1>Parivartann </h1>
+<div id="background">
+<div id="allcontent">
 
 <div id="header">
+
+  <h1>Parivartann </h1>
 
 <ul>
 	<li id= "selected"><a><%= link_to "About us" , :controller => "main" , :action => "about_us"%></a></li>
@@ -18,8 +23,15 @@
 </ul>
 
 </div>
-<div id="content">
+
+
+ <div id="content">
 <div id="sidebar">
+
+  <a href="http://www.facebook.com">
+    <img  src="../../../public/images/facebook-128.png">
+  </a>
+
 </div>
 <h2> OUR MISSION </h2>
 
@@ -67,9 +79,10 @@ Vocational training, basic education, basic necessities of life, Awareness regar
 <li>We believe in non caste discrimination, our only discrimination base is economic class</li>
 <li>We believe in transparency of work we and usage of funds</li>
 </ul>
+   </div>
+    </div>
+
 </div>
 </body>
-
-
 
 </html>
