@@ -12,7 +12,7 @@ Parivartann::Application.routes.draw do
 
   get "main/gallery"
 
-  map.resources "public"
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
