@@ -10,7 +10,7 @@
  <div id="content">
 
 	<div id="header">
-		<h1>Parivartann </h1>
+		<div id="tags"">
 	<ul>
 		<li><%= link_to "About us" , :controller => "main" , :action => "about_us"%></li>
 		<li><%= link_to "Contact Us" , :controller => "main", :action => "contact_us"%></li>
@@ -18,6 +18,12 @@
 		<li id= "selected"><%= link_to "Gallery" , :controller => "main", :action => "gallery"%></li>
 	</ul>
  	</div>
+	<a href="http://localhost:3000">
+   		<%= image_tag('parivartann_logo.gif', :class=>"header_image") %>
+      	</a>
+
+	</div>
+
 
 	<div id="sidebar">
 
