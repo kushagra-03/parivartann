@@ -8,14 +8,15 @@
 
 
 <body>
-<div id="wall">
 <div id="background">
 
  <div id="content">
 
 	<div id="header">
 
-		  <h1>Parivartann </h1>
+		  <a href="http://localhost:3000">
+	    		<%= image_tag('parivartann_logo.gif', :class=>"header_image") %>
+	  	  </a>
 
 		<ul>
 			<li id= "selected"><%= link_to "About us" , :controller => "main" , :action => "about_us"%></li>
@@ -23,6 +24,26 @@
 			<li><%= link_to "Events" , :controller => "main", :action => "events"%></li>
 			<li><%= link_to "Gallery" , :controller => "main", :action => "gallery"%></li>
 		</ul>
+
+	</div>
+
+	<div id="sidebar">
+
+	  <a href="http://www.facebook.com">
+	    <%= image_tag('facebook-128.png', :class=>"sidebar_image") %>
+	  </a>
+
+	  <a href="http://www.twitter.com">
+	    <%= image_tag('twitter-128.png', :class=>"sidebar_image") %>
+	  </a>
+
+	  <a href="http://www.reddit.com">
+	    <%= image_tag('reddit-128.png', :class=>"sidebar_image") %>
+	  </a>
+
+	  <a href="http://www.facebook.com">
+	    <%= image_tag('rss-128.png', :class=>"sidebar_image") %>
+	  </a>
 
 	</div>
 
@@ -75,26 +96,6 @@
 	   </div>
 	    </div>
 
-</div>
-<div id="sidebar">
-
-	  <a href="http://www.facebook.com">
-	    <%= image_tag('facebook-128.png', :class=>"sidebar_image") %>
-	  </a>
-
-	  <a href="http://www.twitter.com">
-	    <%= image_tag('twitter-128.png', :class=>"sidebar_image") %>
-	  </a>
-
-	  <a href="http://www.reddit.com">
-	    <%= image_tag('reddit-128.png', :class=>"sidebar_image") %>
-	  </a>
-
-	  <a href="http://www.facebook.com">
-	    <%= image_tag('rss-128.png', :class=>"sidebar_image") %>
-	  </a>
-
-	</div>
 </div>
 </body>
 
