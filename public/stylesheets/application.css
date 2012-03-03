@@ -1,3 +1,10 @@
+@font-face {
+font-family: 'CabinSketch';
+src: url('../images/CabinSketch-Regular.otf');
+/*src: local('☺'), url('../images/CabinSketch-Regular.woff') format('woff'), url('../images/CabinSketch-Regular.svg') format('svg'), url('../images/CabinSketch-Regular.eot') format('eot');*/
+}
+
+
 #allcontent{
     width: 800px;
     padding-top: 40px;
@@ -18,11 +25,12 @@ body {
     display: block;
     margin: 30px;
 }
-
-h1 {
+ h1 {
+    font-family:  'CabinSketch', Helvetica, SANS-SERIF;
+    font-size: 300% ;
+    color: blue;
 	margin: 0;
 	padding-left:10%;
-    font-size: 150%;
     border-right: 1px;
 
 }
@@ -85,8 +93,16 @@ h2 {
 
 #sidebar {
 	float: right;
-	width: 100px;
+	width: 80px;
 	height: 550px;
-	margin: 10px 20px 10px 10px;
+	margin: 10px 10px 10px 10px;
 
+
+}
+
+.sidebar_image  {
+    height: 80px;
+    width: 80px;
+    align: center;
+    margin-top: 25%;
 }
