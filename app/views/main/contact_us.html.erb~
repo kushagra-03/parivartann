@@ -11,8 +11,6 @@
 
 	<div id="header">
 
-		<h1>Parivartann </h1>
-
 		<div id="tags"">
 		<ul>
 			<li><%= link_to "About us" , :controller => "main" , :action => "about_us"%></li>
@@ -22,8 +20,8 @@
 		</ul>
 		</div>
 		<a href="http://localhost:3000">
-	    		<%= image_tag('parivartann_logo.gif', :class=>"header_image") %>
-       	        </a>
+	    		<%= image_tag('parivartann_logo.gif', :class=>"header_image") %><b>CHANGE FOR BETTER</b>
+       	  	</a>
 
 	</div>
 

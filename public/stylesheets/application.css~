@@ -17,12 +17,12 @@ body{
 }
 
 #background{
-    background-image: url('../images/Real-blackboard.gif');
+    background-image: url('../images/real-blackboard.gif');
     background-repeat: no-repeat;
     background-position: center top;
     padding: 1%;
     min-height: 1000px;
-    max-width: 750px;
+    max-width: 900px;
     margin-left:auto;
     margin-right:auto;
 }
@@ -98,5 +98,21 @@ a:hover {color: white; text-decoration: none; }
     height: 50px;
     width: 50px;
     align: center;
-    margin-top: 75%;
+    margin-top: 65%;
+}
+
+#bottomBar {
+	float: bottom;
+	width: 550px;
+	height: 100px;
+	margin: 1% 0% 0% 3.5% ;
+
+
+}
+
+.bottomBar_image {
+	height: 70px;
+        width: 115px;
+        align: center;
+        margin-right: 7%;
 }

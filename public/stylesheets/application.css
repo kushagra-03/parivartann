@@ -91,7 +91,7 @@ a:hover {color: white; text-decoration: none; }
 	float: right;
 	width: 50px;
 	height: 420px;
-	margin: 0% 0% 0% 1% ;`
+	margin: 0% 0% 0% 1% ;
 }
 
 .sidebar_image  {
@@ -99,4 +99,20 @@ a:hover {color: white; text-decoration: none; }
     width: 50px;
     align: center;
     margin-top: 65%;
+}
+
+#bottomBar {
+	float: bottom;
+	width: 550px;
+	height: 100px;
+	margin: 1% 0% 0% 3.5% ;
+
+
+}
+
+.bottomBar_image {
+	height: 70px;
+        width: 115px;
+        align: center;
+        margin-right: 7%;
 }
