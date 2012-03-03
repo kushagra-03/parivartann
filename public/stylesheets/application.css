@@ -1,44 +1,42 @@
 @font-face {
 font-family: 'CabinSketch';
 src: url('../images/CabinSketch-Regular.otf');
-/*src: local('☺'), url('../images/CabinSketch-Regular.woff') format('woff'), url('../images/CabinSketch-Regular.svg') format('svg'), url('../images/CabinSketch-Regular.eot') format('eot');*/
 }
 
-
-#allcontent{
-    width: 800px;
-    padding-top: 40px;
-    padding-bottom: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: small;
-    line-height: 1.6em;
+body{
+    background-image: url('../images/wall.jpg');
+    background-repeat: repeat;
+    background-position: center;
 }
 
-body {
-    font-size: small;
-    line-height: 1.6em;
+#background{
+    background-image: url('../images/Real-blackboard.gif');
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding: 1%;
+    min-height: 1000px;
+}
 
+#content {
+	color: white;
+	padding: 1%;
+    	margin-left: auto;
+    	margin-right: auto;
+    	line-height: 1.6em;
+	font-family:  'CabinSketch', Helvetica, SANS-SERIF;
+    	font-size: small ;
+	max-width:550px;
 }
 
 #header {
     display: block;
-    margin: 30px;
+    position: center top;
+    margin: 10% 0% 10% 0%;
 }
- h1 {
-    font-family:  'CabinSketch', Helvetica, SANS-SERIF;
-    font-size: 300% ;
-    color: blue;
-	margin: 0;
-	padding-left:10%;
-    border-right: 1px;
 
-}
-h2 {
-    font-size: 130%;
-}
 
 #header ul {
+	display:block;
 	list-style: none;
 	padding-left:5%;
 	margin:0;
@@ -47,8 +45,7 @@ h2 {
 #header li {
 	float: right;
 	border: 0.5px solid;
-    color:black;
-	border-bottom-width: 0;
+    	color:white;
 }
 
 #header li a {
@@ -61,43 +58,17 @@ h2 {
 	background: gray;
 }
 
-#background{
-    background-image: url('../images/Real-blackboard.gif');
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    background-size: 900px 1100px;
-
-}
-/*#background {
-    margin-top:10%;
-    background-image: url('../images/Real-blackboard.gif');
-    background-repeat: no-repeat;
-	position: absolute;
-    width: 100%;
-    top: 0;
-    left: 0;
-}*/
-
-#content {
-	padding: 5%;
-
-	color: white;
-
-}
-
 #images {
-	width:700px;
-	padding-left:5%;
-	padding-top:5%;
+	width:450px;
+	margin:0.5%;
 }
 
 #sidebar {
+
 	float: right;
 	width: 80px;
-	height: 550px;
-	margin: 10px 10px 10px 10px;
-
-
+	height: 420px;
+	margin: 0% 0% 0% 1% ;
 }
 
 .sidebar_image  {

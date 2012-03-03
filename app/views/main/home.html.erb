@@ -6,43 +6,61 @@
 
 
 <body>
-<h1>Parivartann </h1>
+<div id="background">
+ <div id="content">
 
-<div id="header">
+	<div id="header">
 
-<ul>
-	<li><a><%= link_to "About us" , :controller => "main" , :action => "about_us"%></a></li>
-	<li><a><%= link_to "Contact Us" , :controller => "main", :action => "contact_us"%></a></li>
-	<li><a><%= link_to "Events" , :controller => "main", :action => "events"%></a></li>
-	<li><a><%= link_to "Gallery" , :controller => "main", :action => "gallery"%></a></li>
-</ul>
+		<h1>Parivartann </h1>
+
+		<ul>
+			<li><a><%= link_to "About us" , :controller => "main" , :action => "about_us"%></a></li>
+			<li><a><%= link_to "Contact Us" , :controller => "main", :action => "contact_us"%></a></li>
+			<li><a><%= link_to "Events" , :controller => "main", :action => "events"%></a></li>
+			<li><a><%= link_to "Gallery" , :controller => "main", :action => "gallery"%></a></li>
+		</ul>
+
+	</div>
+
+ 	<div id="sidebar">
+
+		  <a href="http://www.facebook.com">
+		    <%= image_tag('facebook-128.png', :class=>"sidebar_image") %>
+		  </a>
+
+		  <a href="http://www.twitter.com">
+		    <%= image_tag('twitter-128.png', :class=>"sidebar_image") %>
+		  </a>
+
+		  <a href="http://www.reddit.com">
+		    <%= image_tag('reddit-128.png', :class=>"sidebar_image") %>
+		  </a>
+
+		  <a href="http://www.facebook.com">
+		    <%= image_tag('rss-128.png', :class=>"sidebar_image") %>
+		  </a>
+
+ </div>
+
+	<h2> OUR MISSION </h2>
+
+	<blockquote> "With great power, comes great responsibility"</blockquote>
+	<p>Unify all noble efforts into one big social revolution and be the catalyst for the formation of a more responsible stronger and happier nation.
+	Let's show to the world that we are capable of making people better citizens and our world a better place to live in.</p>
+
+	<h2> OUR VISION </h2>
+
+	<ul>
+	<li>To make people realize their responsibilities towards the well being of themselves and their society</li>
+	<li>To make people better citizens and world a better place to live. </li>
+	<li>To promote the sense of responsibility towards our Nation.</li>
+	<li>Guide the youth as well as inspire the rest to implement their fundamental rights for the benefit of the nation through better understanding and realization of their responsibilities.</li>
+	<li>To make present young generation to fulfill their fundamental duties with responsibility using their fundamental rights.</li>
+	<li>To achieve kind, caring and responsible citizens.</li>
+	<li>To achieve better citizenship, if not for this, then next generation for sure.</li>
+	</ul>
 
 </div>
-
-<div id="content">
-
-<div id="sidebar">
-</div>
-
-<h2> OUR MISSION </h2>
-
-<blockquote> "With great power, comes great responsibility"</blockquote>
-<p>Unify all noble efforts into one big social revolution and be the catalyst for the formation of a more responsible stronger and happier nation.
-Let's show to the world that we are capable of making people better citizens and our world a better place to live in.</p>
-
-<h2> OUR VISION </h2>
-
-<ul>
-<li>To make people realize their responsibilities towards the well being of themselves and their society</li>
-<li>To make people better citizens and world a better place to live. </li>
-<li>To promote the sense of responsibility towards our Nation.</li>
-<li>Guide the youth as well as inspire the rest to implement their fundamental rights for the benefit of the nation through better understanding and realization of their responsibilities.</li>
-<li>To make present young generation to fulfill their fundamental duties with responsibility using their fundamental rights.</li>
-<li>To achieve kind, caring and responsible citizens.</li>
-<li>To achieve better citizenship, if not for this, then next generation for sure.</li>
-</ul>
-
-
 </div>
 
 </body>
