@@ -1,0 +1,32 @@
+<%= form_for(@donating_user) do |f| %>
+  <% if @donating_users.errors.any? %>
+  <div id="error_fields">
+    <h2><% pluralize(@donating_users.errors.count, "error") %> stopped us from processing your donation request</h2>
+      <ul><%= @donating_users.errors.full_messages do |msg| %>
+            <li><%=	msg %></li>
+          <% end %>
+      </ul>
+  </div>
+<% end %>
+
+<div class="field">
+  <%= f.label :name %><br/>
+  <%= f.text_field :name %>
+</div>
+<div class="field">
+  <%= f.label :city %>
+  <%= f.text_field :city %>
+</div>
+<div class="field">
+  <%= f.label :phone_no %>
+  <%= f.text_field :phone_no %>
+</div>
+<div class="field">
+  <%= f.label :email %>
+  <%= f.text_field :email %>
+</div>
+<%= @donating_user.fields_for :donations do |d| %>
+  <%= d.label :item %>
+  <%= check_box_(:item, "books", {} ,"Books" , "0" ) %>
+<% end %>
+<% end %>

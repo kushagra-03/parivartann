@@ -10,10 +10,10 @@ body{
 }
 
 #allContent{
-	width:1000px;
-	height:auto;
-	margin-left:auto;
-	margin-right:auto;
+	width: 1000px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #background{
@@ -22,20 +22,20 @@ body{
     background-position: center top;
     padding: 1%;
     min-height: 1000px;
-    max-width: 750px;
-    margin-left:auto;
-    margin-right:auto;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #content {
 	color: white;
 	padding: 1%;
-    	margin: 0% auto 1% auto;
-    	margin-right: auto;
-    	line-height: 1.6em;
-	font-family:  'CabinSketch', Helvetica, SANS-SERIF;
-    	font-size: small ;
-	max-width:550px;
+    margin: 0% auto 1% auto;
+    margin-right: auto;
+    line-height: 1.6em;
+	font-family: 'CabinSketch', Helvetica, SANS-SERIF;
+    font-size: small ;
+	max-width: 550px;
 }
 
 #header {
@@ -51,9 +51,10 @@ a:hover {color: white; text-decoration: none; }
 
 .header_image {
    height: 125px;
-    width: 300px;
-    position: left;
-    display:block;
+   width: 300px;
+   position: left;
+   display: block;
+
 }
 
 
@@ -68,7 +69,8 @@ a:hover {color: white; text-decoration: none; }
 #tags li {
 	list-style:none;
 	float: right;
-    	color:white;
+    color:white;
+    font-size: small;
 }
 
 #header li a {
@@ -82,21 +84,22 @@ a:hover {color: white; text-decoration: none; }
 }
 
 #images {
-	width:450px;
-	margin:0.5%;
+    /*Removed the width here cause i think there should only be one place to
+    control the width of the container. :)*/
+
 }
 
 #sidebar {
 
-	float: right;
+    float: right;
 	width: 50px;
 	height: 420px;
-	margin: 0% 0% 0% 1% ;
+	margin: 3% 10% 0% 0% ;
 }
 
 .sidebar_image  {
-    height: 50px;
-    width: 50px;
+    height: 80px;
+    width: 80px;
     align: center;
     margin-top: 65%;
 }
@@ -112,7 +115,21 @@ a:hover {color: white; text-decoration: none; }
 
 .bottomBar_image {
 	height: 70px;
-        width: 115px;
-        align: center;
-        margin-right: 7%;
+    width: 115px;
+    align: center;
+    margin-right: 7%;
+}
+
+#square_para {
+    width: 45%;
+    background-image: url('../images/Untitled-1.gif');
+    background-size: 250px 220px;
+
+}
+
+#square_para p{
+    width: 80%;
+     margin: 10% 0% 10% 10%;
+    align: center;
+
 }

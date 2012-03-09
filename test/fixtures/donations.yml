@@ -1,13 +1,9 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
 one:
-  name: MyString
-  city: MyString
-  email: MyString
-  contact_no: 1
+  donating_user_id: 1
+  item: MyString
 
 two:
-  name: MyString
-  city: MyString
-  email: MyString
-  contact_no: 1
+  donating_user_id: 1
+  item: MyString

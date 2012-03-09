@@ -1,5 +1,11 @@
 Parivartann::Application.routes.draw do
 
+  get "donating_users/new"
+
+  get "donations/new"
+
+  get "donate/new"
+
   root :to => 'main#home'
 
   get "main/home"
