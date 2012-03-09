@@ -10,7 +10,16 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111214060224) do
+ActiveRecord::Schema.define(:version => 20120304080435) do
+
+  create_table "donations", :force => true do |t|
+    t.string   "name"
+    t.string   "city"
+    t.string   "email"
+    t.integer  "contact_no"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "galleries", :force => true do |t|
     t.string   "images"
