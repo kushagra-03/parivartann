@@ -1,5 +1,11 @@
 Parivartann::Application.routes.draw do
 
+  get "donations/create"
+
+  resources :donating_users do
+    resources :donations
+  end
+
   get "donating_users/new"
 
   get "donations/new"
