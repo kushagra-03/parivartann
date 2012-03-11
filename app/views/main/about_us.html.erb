@@ -8,63 +8,58 @@
 
 
 <body>
-
+<div id = "allContent">
 <div id="sidebar">
 
 	  <a href="http://www.facebook.com/profile.php?id=100001813455620 ">
-	    <%= image_tag('facebook_128.png', :class=>"sidebar_image") %>
+	    <%= image_tag('facebook_64.png', :class=>"sidebar_image") %>
 	  </a>
 
 	  <a href="http://twitter.com/#!/4parivartaNN ">
-	    <%= image_tag('twitter_128.png', :class=>"sidebar_image") %>
+	    <%= image_tag('twitter_64.png', :class=>"sidebar_image") %>
 	  </a>
 
 	  <a href="http://www.reddit.com">
-	    <%= image_tag('reddit_128.png', :class=>"sidebar_image") %>
+	    <%= image_tag('reddit_64.png', :class=>"sidebar_image") %>
 	  </a>
 
 	  <a href="http://www.blogger.com/profile/16495428436433190597 ">
-	    <%= image_tag('blogger_128.png', :class=>"sidebar_image") %>
+	    <%= image_tag('blogger_64.png', :class=>"sidebar_image") %>
 	  </a>
 
       <a href="http://www.blogger.com/profile/16495428436433190597 ">
-	    <%= image_tag('youtube_128.png', :class=>"sidebar_image") %>
+	    <%= image_tag('youtube_64.png', :class=>"sidebar_image") %>
 	  </a>
 
 	</div>
-
-<div id="background">
-
- <div id="content">
-
-	<div id="header">
-		<div id="tags"">
+<div id="header_tags">
 		<ul>
 			<li id= "selected"><%= link_to "About us" , :controller => "main" , :action => "about_us"%></li>
 			<li><%= link_to "Contact Us" , :controller => "main", :action => "contact_us"%></li>
 			<li><%= link_to "Events" , :controller => "main", :action => "events"%></li>
 			<li><%= link_to "Gallery" , :controller => "main", :action => "gallery"%></li>
 		</ul>
-		</div>
+</div>
 
+<div id="background">
+
+ <div id="content">
+	<div id="header_image">
 		  <a href="http://localhost:3000">
 	    		<%= image_tag('parivartann_logo.gif', :class=>"header_image") %><b>CHANGE FOR BETTER</b>
        	  	  </a>
 	</div>
-
 	<p>
 	'Parivartann', as the name suggests, is an initiative towards bringing a change in this society full of differences. Four old friends decided
      they'd help bring a change to the society, and that is how 'Parivartann' came into existence. They decided to bridge the gaps between our
      societies. They decided to fund the education of some innocent little children robbed off their rights to learn to read and write and grow
      up to be the better future of this society and they decided that they would make people aware of their fundamental duties.
     </p>
-    <div id="square_para">
   <p>
      When most graduated and figured out what they're going to do for a living, to make a career for them selves,four guys decided to do something
      different. Something, that wasn't for their own selves, rather for humans who didnt has the privilege to reach as far as they did. Something
      that everyone wishes it'd happen, but none really take the initiative to make it happen. Something which would bring the much needed 'change'.
    </p>
-      </div>
 
     <p>
       'Parivartann'is about working for the society, for the needy and deprived and focusing on providing children with better opportunities to
@@ -88,10 +83,13 @@
   </p>
 
   <blockquote>"We’re there, because we care!"</blockquote>
+</div>
 
-	   </div>
-	    </div>
+</div>
 
+</div>
+<div id="footer_image">
+</div>
 </div>
 </body>
 
