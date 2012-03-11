@@ -89,6 +89,7 @@ display:block;
 }
 
 #gallery_image {
+<<<<<<< HEAD
 	margin: 10px;
 	border:5px ridge;
 }
@@ -96,6 +97,9 @@ display:block;
 #images {
 	margin: 10px;
 	border:5px ridge;
+=======
+	border: 10px, solid;
+>>>>>>> 3db553dace6559696547c9774f687db6e69d01e8
 }
 
 #sidebar {
