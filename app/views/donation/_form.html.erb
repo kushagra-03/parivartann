@@ -1,0 +1,40 @@
+<%= form_for(@donation) do |f| %>
+  <% if @donation.errors.any? %>
+    <div id="error_fields">
+      <h2><%= pluralize(@donation.errors.count, "errors") %> stopped us from taking your request.</h2>
+      <ul>
+        <% @donation.errors.full_messages do|msg| %>
+        <li>msg</li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="fields">
+    <%= f.label :name %><br/>
+    <%= f.text_field :name %>
+  </div>
+
+  <div class="field>">
+    <%= f.label :city %><br/>
+    <%= f.text_field :city %>
+  </div>
+
+  <div class="field>">
+    <%= f.label :contact_no %><br/>
+    <%= f.text_field :contact_no %>
+  </div>
+
+  <div class="field>">
+    <%= f.label :email %>
+    <%= f.text_field :email %>
+  </div>
+
+  <div class="field">
+    <%= check_box :books, 'books', "Books", "0" %>
+    <%= check_box :clothes, 'clothes', "Clothes" , "0" %>
+    <%= check_box :celebrate, 'celebrate', "Celebrate", "0" %>
+    <%= f.label :other %>
+    <%= f.text_field :other %>
+  </div>
+<% end %>

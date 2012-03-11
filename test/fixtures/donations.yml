@@ -1,9 +1,21 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
 one:
-  donating_user_id: 1
-  item: MyString
+  name: MyString
+  city: MyString
+  contact_no: 1
+  email: MyString
+  books: MyString
+  clothes: MyString
+  celebrate: MyString
+  others: MyString
 
 two:
-  donating_user_id: 1
-  item: MyString
+  name: MyString
+  city: MyString
+  contact_no: 1
+  email: MyString
+  books: MyString
+  clothes: MyString
+  celebrate: MyString
+  others: MyString
