@@ -18,12 +18,12 @@ body{
 }
 
 #header_tags {
+	z-index:10;
 	background-image: url(../images/header.gif);
 	background-repeat: no-repeat;
     	background-position: top center;
 	margin: 0px auto 0 auto;
 	max-width: 856px;
-	z-index:10;
 	height:40px;
 	display:block;
 	list-style: none;
@@ -53,11 +53,13 @@ body{
     background-repeat: no-repeat;
     background-position:top;
     min-height: 700px;
-    min-width: 960px;
+    max-width: 950px;
     margin: 0 auto 0 auto;
 }
 
 #content {
+	position:relative;
+	z-index:9;
 	padding: 10px;
     	margin: 0% auto 0% auto;
 	max-width: 700px;
@@ -91,7 +93,7 @@ display:block;
 }
 
 #sidebar {
-	z-index:100;
+	z-index:3;
 	position:absolute;
 	height:500px;
 	width:1100px;
@@ -132,5 +134,5 @@ display:block;
 }
 
 #form{
-    color: blue;
+
 }
