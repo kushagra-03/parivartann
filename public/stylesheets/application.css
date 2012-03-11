@@ -89,7 +89,13 @@ display:block;
 }
 
 #gallery_image {
-	border:10px,solid;
+	margin: 10px;
+	border:5px ridge;
+}
+
+#images {
+	margin: 10px;
+	border:5px ridge;
 }
 
 #sidebar {
@@ -136,7 +142,10 @@ display:block;
 
 #form {
 	display:block;
-	padding: 20px 0 0 150px;
+	margin: 20px 100px 0 100px;
+	padding:0 70px 20px 70px;
+	border: 3px dashed;
+	position:center;
 }
 
 #form .fields {

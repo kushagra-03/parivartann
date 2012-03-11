@@ -15,6 +15,8 @@ Parivartann::Application.routes.draw do
 
   get "main/gallery"
 
+  get "main/videos"
+
 
 
   # The priority is based upon order of creation:

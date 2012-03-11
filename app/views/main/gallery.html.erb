@@ -26,23 +26,23 @@
 	    <%= image_tag('blogger_64.png', :class=>"rightbar_image") %>
 	  </a>
 
-          <a href="http://www.blogger.com/profile/16495428436433190597 ">
+          <a href="http://www.youtube.com/user/Parivatann">
 	    <%= image_tag('youtube_64.png', :class=>"rightbar_image") %>
 	  </a>
 	</div>
 
 	<div id="leftbar">
-		 <a href="http://www.facebook.com">
-		    <%= image_tag('post-it-note-donate.jpg', :class=>"leftbar_image") %>
-		  </a>
+		  <a>
+			<%= link_to image_tag('post-it-note-donate.jpg', :class=>"leftbar_image"), :controller => "donations" , :action => "new"%>
+        	  </a>
 
 		  <a href="http://www.twitter.com">
 		    <%= image_tag('Post-it-note-updates.jpg', :class=>"leftbar_image") %>
 		  </a>
 
-		  <a href="http://www.reddit.com">
-		    <%= image_tag('Post-it-note-videos.jpg', :class=>"leftbar_image") %>
-		  </a>
+		  <a>
+			<%= link_to image_tag('Post-it-note-videos.jpg', :class=>"leftbar_image"), :controller => "main" , :action => "videos"%>
+        	  </a>
 	</div>
 
 </div>
@@ -59,13 +59,12 @@
  <div id="content">
 
 	<div id="header_image">
-		  <a href="http://localhost:3000">
-	    		<%= image_tag('parivartann_logo.gif', :class=>"header_image") %><b>CHANGE FOR BETTER</b>
-       	  	  </a>
+	    		<%= link_to image_tag('parivartann_logo.gif', :class=>"header_image"), :controller => "main", :action => "home"%>
+			<b>CHANGE FOR BETTER</b>
 	</div>
 
 	<div id = "gallery_image">
-	<iframe class="imgur-album" width="100%" height="470" frameborder="10px" src="http://imgur.com/a/DG0nF/embed"></iframe>
+	<iframe class="imgur-album" width="100%" height="470" frameborder="0" src="http://imgur.com/a/DG0nF/embed"></iframe>
 	</div>
 
 </div>
