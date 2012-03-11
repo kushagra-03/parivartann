@@ -3,7 +3,7 @@
     <div id="error_fields">
       <h2><%= pluralize(@donation.errors.count, "errors") %> stopped us from taking your request.</h2>
       <ul>
-        <% @donation.errors.full_messages do|msg| %>
+        <% @donation.errors.full_messages.each do|msg| %>
           <li><%= msg %></li>
         <% end %>
       </ul>

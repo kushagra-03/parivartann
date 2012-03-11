@@ -5,10 +5,10 @@ class DonationsController < ApplicationController
 
   def create
     @donation = Donation.new(params[:donation])
-    if @donation.save!
-      render :action => 'new'
+    if @donation.save
+      redirect_to({:controller =>  :main ,:action =>  :home} , :notice => 'Your request has been saved. We will contact you soon' )
     else
-      redirect_to :controller =>  :main ,:action =>  :home
+      render :action => 'new'
     end
   end
 
