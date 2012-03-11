@@ -1,2 +1,0 @@
-module DonatingUsersHelper
-end

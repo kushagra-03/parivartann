@@ -1,16 +1,7 @@
 Parivartann::Application.routes.draw do
-
-  get "donations/create"
-
-  resources :donating_users do
-    resources :donations
-  end
-
-  get "donating_users/new"
+  resources :donations
 
   get "donations/new"
-
-  get "donate/new"
 
   root :to => 'main#home'
 
