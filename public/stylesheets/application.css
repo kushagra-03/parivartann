@@ -89,7 +89,7 @@ display:block;
 }
 
 #gallery_image {
-	border:10px,solid;
+	border: 10px, solid;
 }
 
 #sidebar {
@@ -101,7 +101,7 @@ display:block;
 }
 
 #rightbar {
-        float: right;
+    float: right;
 	width: 64px;
 	height: 500px;
 }
@@ -127,7 +127,7 @@ display:block;
 #footer_image {
 	background-image: url(../images/footer.gif);
 	background-repeat: no-repeat;
-    	background-position: center bottom;
+    background-position: center bottom;
 	height:100px;
 	margin: -100px auto 0 auto;
 	z-index:10;
@@ -173,4 +173,8 @@ display:block;
 	position :center;
 	max-width:100px;
 
+}
+
+.imgur-album {
+    background-color: transparent;
 }
