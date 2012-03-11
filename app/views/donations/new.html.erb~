@@ -53,6 +53,7 @@
 	    <li><%= link_to "Gallery" , :controller => "main", :action => "gallery"%></li>
 	  </ul>
     </div>
+
     <div id="background">
 
       <div id="content">
@@ -61,15 +62,17 @@
 		    <%= image_tag('parivartann_logo.gif', :class=>"header_image") %><b>CHANGE FOR BETTER</b>
               </a>
         </div>
+       		<div id='form'>
+		<h2>Help us bring the change</h2>
+         		<%= render 'form' %>
+       		</div>
+       </div>
 
-       <h1><b>Help us bring the change</b></h1>
-       <div id='form'>
-         <%= render 'form' %>
-       </div>
-       </div>
     </div>
+
     <div id="footer_image">
     </div>
+
   </div>
   </body>
 
