@@ -4,39 +4,39 @@
       <h2><%= pluralize(@donation.errors.count, "errors") %> stopped us from taking your request.</h2>
       <ul>
         <% @donation.errors.full_messages do|msg| %>
-        <li>msg</li>
+          <li><%= msg %></li>
         <% end %>
       </ul>
     </div>
   <% end %>
 
   <div class="fields">
-    <%= f.label :name %><br/>
-    <%= f.text_field :name %>
+    <%= f.label :name %>
+    <%= f.text_field :name %><br/>
   </div>
 
   <div class="field>">
-    <%= f.label :city %><br/>
-    <%= f.text_field :city %>
+    <%= f.label :city %>
+    <%= f.text_field :city %><br/>
   </div>
 
   <div class="field>">
-    <%= f.label :contact_no %><br/>
-    <%= f.text_field :contact_no %>
+    <%= f.label :contact_no %>
+    <%= f.text_field :contact_no %><br/>
   </div>
 
   <div class="field>">
     <%= f.label :email %>
-    <%= f.text_field :email %>
+    <%= f.text_field :email %><br/>
   </div>
 
   <div class="field">
-    <%= f.label :books %>
     <%= f.check_box :books -%>
-    <%= f.label :clothes %>
+    <%= f.label :books %><br/>
     <%= f.check_box :clothes -%>
-    <%= f.label :celebrate %>
+    <%= f.label :clothes %><br/>
     <%= f.check_box :celebrate -%>
+    <%= f.label :celebrate %><br/>
     <%= f.label :others %>
     <%= f.text_field :others %>
   </div>
