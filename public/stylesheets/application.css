@@ -91,7 +91,7 @@ display:block;
 }
 
 #sidebar {
-	z-index:-100;
+	z-index:100;
 	position:absolute;
 	height:500px;
 	width:1100px;
@@ -107,8 +107,7 @@ display:block;
 .rightbar_image  {
     height: 64px;
     width: 64px;
-    align: center;
-    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 #leftbar {
@@ -120,8 +119,7 @@ display:block;
 .leftbar_image {
 	height: 64px;
     	width: 64px;
-    	align: center;
-    	margin-bottom: 40px;
+    	margin-top: 40px;
 }
 
 #footer_image {

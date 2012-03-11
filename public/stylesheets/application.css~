@@ -95,7 +95,7 @@ display:block;
 	position:absolute;
 	height:500px;
 	width:1100px;
-	margin: 100px 80px 100px 80px;
+	margin: 100px 75px 100px 75px;
 }
 
 #rightbar {
@@ -107,8 +107,7 @@ display:block;
 .rightbar_image  {
     height: 64px;
     width: 64px;
-    align: center;
-    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 #leftbar {
@@ -120,8 +119,7 @@ display:block;
 .leftbar_image {
 	height: 64px;
     	width: 64px;
-    	align: center;
-    	margin-bottom: 40px;
+    	margin-top: 40px;
 }
 
 #footer_image {
