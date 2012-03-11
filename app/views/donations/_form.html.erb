@@ -30,17 +30,21 @@
     <%= f.text_field :email %><br/>
   </div>
 
-  <div class="fields">
+  <div class="check_box">
     <%= f.check_box :books -%>
     <%= f.label :books %><br/>
     <%= f.check_box :clothes -%>
     <%= f.label :clothes %><br/>
     <%= f.check_box :celebrate -%>
     <%= f.label :celebrate %><br/>
+  </div>
+  <div class="fields">
     <%= f.label :others %>
     <%= f.text_field :others %>
   </div>
-  <div class="actions">
-    <%= f.submit  %>
+
+<div class="actions">
+    <%= f.submit %>
+  </div>
   </div>
 <% end %>

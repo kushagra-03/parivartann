@@ -14,7 +14,7 @@ body{
 	color: white;
 	line-height: 1.6em;
 	font-family: 'CabinSketch', Helvetica, SANS-SERIF;
-    	font-size: small ;
+    	font-size: medium ;
 }
 
 #header_tags {
@@ -33,8 +33,7 @@ body{
 	list-style:none;
 	float: right;
     	color:white;
-    	font-size: small;
-	margin-top:20px;
+	margin-top:10px;
 	margin-right:10px;
 }
 
@@ -45,6 +44,7 @@ body{
 #header_tags #selected {
 	position: relative;
 	top: 0.5px;
+	padding:2px;
 	background: grey;
 }
 
@@ -133,6 +133,44 @@ display:block;
 	z-index:10;
 }
 
-#form{
+
+#form {
+	display:block;
+	padding: 20px 0 0 150px;
+}
+
+#form .fields {
+	max-width:370px;
+	padding:2px;
+}
+
+#form h1 {
+	padding: 2px;
+}
+
+#form .fields input{
+	width:350px;
+	height:20px;
+	margin: 3px;
+	color:gray;
+}
+
+#form .fields label {
+	display:block;
+	text-align:left;
+	width:80px;
+	margin: 2px;
+	font-size: medium;
+}
+
+#form .check_box {
+	padding:5px;
+	font-size: medium;
+}
+
+#donation_submit {
+	margin:20px auto 0 auto;
+	position :center;
+	max-width:100px;
 
 }
