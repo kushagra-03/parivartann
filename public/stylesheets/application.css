@@ -91,32 +91,37 @@ display:block;
 }
 
 #sidebar {
+	z-index:-100;
+	position:absolute;
+	height:500px;
+	width:1100px;
+	margin: 100px 75px 100px 75px;
+}
 
+#rightbar {
         float: right;
 	width: 64px;
 	height: 500px;
-	margin: 10% 5% 0% 0% ;
 }
 
-.sidebar_image  {
+.rightbar_image  {
     height: 64px;
     width: 64px;
     align: center;
-    margin-top: 30px;
+    margin-bottom: 40px;
 }
 
-#bottomBar {
+#leftbar {
 	float: left;
-	width: 50px;
-	height: 420px;
-	margin: 3% 10% 0% 0% ;
+	width: 64px;
+	height: 500px;
 }
 
-.bottomBar_image {
-	height: 80px;
-    width: 80px;
-    align: center;
-    margin-top: 65%;
+.leftbar_image {
+	height: 64px;
+    	width: 64px;
+    	align: center;
+    	margin-bottom: 40px;
 }
 
 #footer_image {

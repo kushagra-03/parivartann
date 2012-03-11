@@ -10,27 +10,29 @@
 <body>
 <div id = "allContent">
 <div id="sidebar">
-
+	<div id="rightbar">
 	  <a href="http://www.facebook.com/profile.php?id=100001813455620 ">
-	    <%= image_tag('facebook_128.png', :class=>"sidebar_image") %>
+	    <%= image_tag('facebook_64.png', :class=>"rightbar_image") %>
 	  </a>
 
 	  <a href="http://twitter.com/#!/4parivartaNN ">
-	    <%= image_tag('twitter_128.png', :class=>"sidebar_image") %>
+	    <%= image_tag('twitter_64.png', :class=>"rightbar_image") %>
 	  </a>
 
 	  <a href="http://www.reddit.com">
-	    <%= image_tag('reddit_128.png', :class=>"sidebar_image") %>
+	    <%= image_tag('reddit_64.png', :class=>"rightbar_image") %>
 	  </a>
 
 	  <a href="http://www.blogger.com/profile/16495428436433190597 ">
-	    <%= image_tag('blogger_128.png', :class=>"sidebar_image") %>
+	    <%= image_tag('blogger_64.png', :class=>"rightbar_image") %>
 	  </a>
 
       <a href="http://www.blogger.com/profile/16495428436433190597 ">
-	    <%= image_tag('youtube_128.png', :class=>"sidebar_image") %>
+	    <%= image_tag('youtube_64.png', :class=>"rightbar_image") %>
 	  </a>
-
+	</div>
+	<div id="leftbar">
+	</div>
 	</div>
 <div id="header_tags">
 		<ul>

@@ -9,28 +9,44 @@
 
 <div id="allContent">
 <div id="sidebar">
-
+	<div id="rightbar">
 	  <a href="http://www.facebook.com/profile.php?id=100001813455620 ">
-	    <%= image_tag('facebook_64.png', :class=>"sidebar_image") %>
+	    <%= image_tag('facebook_64.png', :class=>"rightbar_image") %>
 	  </a>
 
 	  <a href="http://twitter.com/#!/4parivartaNN ">
-	    <%= image_tag('twitter_64.png', :class=>"sidebar_image") %>
+	    <%= image_tag('twitter_64.png', :class=>"rightbar_image") %>
 	  </a>
 
 	  <a href="http://www.reddit.com">
-	    <%= image_tag('reddit_64.png', :class=>"sidebar_image") %>
+	    <%= image_tag('reddit_64.png', :class=>"rightbar_image") %>
 	  </a>
 
 	  <a href="http://www.blogger.com/profile/16495428436433190597 ">
-	    <%= image_tag('blogger_64.png', :class=>"sidebar_image") %>
+	    <%= image_tag('blogger_64.png', :class=>"rightbar_image") %>
 	  </a>
 
-      <a href="http://www.blogger.com/profile/16495428436433190597 ">
-	    <%= image_tag('youtube_64.png', :class=>"sidebar_image") %>
+          <a href="http://www.blogger.com/profile/16495428436433190597 ">
+	    <%= image_tag('youtube_64.png', :class=>"rightbar_image") %>
 	  </a>
-
 	</div>
+
+	<div id="leftbar">
+		 <a href="http://www.facebook.com">
+		    <%= image_tag('Post-it-note-donate.jpg', :class=>"leftbar_image") %>
+		  </a>
+
+		  <a href="http://www.twitter.com">
+		    <%= image_tag('Post-it-note-updates.jpg', :class=>"leftbar_image") %>
+		  </a>
+
+		  <a href="http://www.reddit.com">
+		    <%= image_tag('Post-it-note-videos.jpg', :class=>"leftbar_image") %>
+		  </a>
+	</div>
+
+</div>
+
 <div id="header_tags">
 
 		<ul>
@@ -51,24 +67,9 @@
 		</div>
 
 	<div id = "images">
-	<iframe class="imgur-album" width="100%" height="470px" frameborder="0" src="http://imgur.com/a/DG0nF/embed"></iframe>
+	<iframe class="imgur-album" width="100%" height="470px" frameborder="1" src="http://imgur.com/a/DG0nF/embed"></iframe>
 	</div>
 
-	<div id="bottomBar">
-
-		  <a href="http://www.facebook.com">
-		    <%= image_tag('chalk-updates.jpg', :class=>"bottomBar_image") %>
-		  </a>
-
-		  <a href="http://www.twitter.com">
-		    <%= image_tag('chalk-donate.jpg', :class=>"bottomBar_image") %>
-		  </a>
-
-		  <a href="http://www.reddit.com">
-		    <%= image_tag('chalk-videos.jpg', :class=>"bottomBar_image") %>
-		  </a>
-
- 	</div>
 </div>
 </div>
 <div id="footer_image">
