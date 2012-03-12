@@ -30,19 +30,22 @@
 	 	 </a>
        	  </div>
 
-      	  <div id="leftbar">
-		  <a>
-			<%= link_to image_tag('post-it-note-donate.jpg', :class=>"leftbar_image"), :controller => "donations" , :action => "new"%>
-        	  </a>
+      	 <div id="leftbar">
+		  <b>
+		  <div id="donate_link" class="leftbar_image">
+			<%= link_to "DONATE!", :controller => "donations" , :action => "new"%>
+		  </div>
 
-		  <a href="http://www.twitter.com">
-		    <%= image_tag('Post-it-note-updates.jpg', :class=>"leftbar_image") %>
-		  </a>
+		  <div id="updates_link" class="leftbar_image">
+			<%= link_to "UPDATES", :controller => "main" , :action => "events"%>
+		  </div>
 
-		  <a>
-			<%= link_to image_tag('Post-it-note-videos.jpg', :class=>"leftbar_image"), :controller => "main" , :action => "videos"%>
-        	  </a>
+		   <div id="videos_link" class="leftbar_image">
+			<%= link_to "  VIDEOS", :controller => "main" , :action => "videos"%>
+		  </div>
+		   </b>
 	</div>
+
     </div>
 
     <div id="header_tags">

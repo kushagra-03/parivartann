@@ -108,32 +108,39 @@ display:block;
 
 #rightbar {
     float: right;
-	width: 64px;
+	width: 70px;
 	height: 500px;
 }
 
 .rightbar_image  {
-    height: 64px;
-    width: 64px;
-    margin-top: 40px;
+    	height: 70px;
+    	width: 70px;
+    	margin-top: 40px;
+	border:2px solid;
+	color:grey;
+
+
 }
 
 #leftbar {
 	float: left;
-	width: 64px;
+	width: 80px;
 	height: 500px;
 }
 
 .leftbar_image {
-	height: 64px;
-    	width: 64px;
-    	margin-top: 40px;
+	max-height: 80px;
+    	width: 80px;
+    	margin-top: 50px;
+	border: 5px double gray;
+	text-align:center;
+	padding:20px 0 20px 0;
 }
 
 #footer_image {
 	background-image: url(../images/footer.gif);
 	background-repeat: no-repeat;
-    background-position: center bottom;
+        background-position: center bottom;
 	height:100px;
 	margin: -100px auto 0 auto;
 	z-index:10;
@@ -143,8 +150,8 @@ display:block;
 #form {
 	display:block;
 	margin: 20px 100px 0 100px;
-	padding:0 70px 20px 70px;
-	border: 3px dashed;
+	padding:20px 70px 20px 70px;
+	border: 3px dashed gray;
 	position:center;
 }
 
@@ -155,11 +162,13 @@ display:block;
 
 #form h1 {
 	padding: 2px;
+	color:white;
+	font-size:200%;
 }
 
 #form .fields input{
 	width:350px;
-	height:20px;
+	height:15px;
 	margin: 3px;
 	color:gray;
 }
