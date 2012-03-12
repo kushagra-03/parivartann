@@ -71,6 +71,20 @@
     <orderEntry type="library" scope="PROVIDED" name="[gem] sqlite3-ruby (v1.3.3, /home/prakriti/.rvm/gems/ruby-1.9.2-p136/gems/sqlite3-ruby-1.3.3)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] sqlite3 (v1.3.5, /home/prakriti/.rvm/gems/ruby-1.9.2-p136/gems/sqlite3-1.3.5)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] jquery-rails (v1.0.19, /home/prakriti/.rvm/gems/ruby-1.9.2-p136/gems/jquery-rails-1.0.19)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] activeadmin (v0.4.3, /home/prakriti/.rvm/gems/ruby-1.9.2-p136/gems/activeadmin-0.4.3)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] responders (v0.6.5, /home/prakriti/.rvm/gems/ruby-1.9.2-p136/gems/responders-0.6.5)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] formtastic (v2.1.1, /home/prakriti/.rvm/gems/ruby-1.9.2-p136/gems/formtastic-2.1.1)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] inherited_resources (v1.3.1, /home/prakriti/.rvm/gems/ruby-1.9.2-p136/gems/inherited_resources-1.3.1)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] devise (v1.5.3, /home/prakriti/.rvm/gems/ruby-1.9.2-p136/gems/devise-1.5.3)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] meta_search (v1.0.6, /home/prakriti/.rvm/gems/ruby-1.9.2-p136/gems/meta_search-1.0.6)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] orm_adapter (v0.0.6, /home/prakriti/.rvm/gems/ruby-1.9.2-p136/gems/orm_adapter-0.0.6)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] kaminari (v0.13.0, /home/prakriti/.rvm/gems/ruby-1.9.2-p136/gems/kaminari-0.13.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] bcrypt-ruby (v3.0.1, /home/prakriti/.rvm/gems/ruby-1.9.2-p136/gems/bcrypt-ruby-3.0.1)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] sass (v3.1.15, /home/prakriti/.rvm/gems/ruby-1.9.2-p136/gems/sass-3.1.15)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] bourbon (v1.4.0, /home/prakriti/.rvm/gems/ruby-1.9.2-p136/gems/bourbon-1.4.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] fastercsv (v1.5.4, /home/prakriti/.rvm/gems/ruby-1.9.2-p136/gems/fastercsv-1.5.4)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] has_scope (v0.5.1, /home/prakriti/.rvm/gems/ruby-1.9.2-p136/gems/has_scope-0.5.1)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] warden (v1.1.1, /home/prakriti/.rvm/gems/ruby-1.9.2-p136/gems/warden-1.1.1)" level="application" />
   </component>
 </module>
 

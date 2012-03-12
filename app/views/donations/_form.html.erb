@@ -4,7 +4,7 @@
       <h2><%= pluralize(@donation.errors.count, "errors") %> stopped us from taking your request.</h2>
       <ul>
         <% @donation.errors.full_messages.each do|msg| %>
-          <li><%= msg %></li>
+          <li><%= msg  %><%= @donation.errors.keys() %></li>
         <% end %>
       </ul>
     </div>
