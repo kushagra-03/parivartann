@@ -1,13 +1,16 @@
 class Donation < ActiveRecord::Base
-  validates_presence_of :name ,:email ,:contact_no, :city
-  validates :name , :length => {:minimum => 2}
-  validates :city , :length => {:minimum => 3}
-  validates :email , :length => {:minimum => 3}
-  validates :contact_no, :length => {:minimum => 6}
-  validates :contact_no,:numericality => {:only_integer => true}
-  validates_uniqueness_of :email , :contact_no
+
+
+
+  validates :name ,:presence => true , :length => {:minimum => 2},  :reduce => true
+
+  validates :city , :presence => true, :length => {:minimum => 3} , :reduce => true
+
+  validates :email, :presence => true , :length => {:minimum => 3} , :format => { :with => /^([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})$/i} , :uniqueness => true,  :reduce => true
+
+  validates :contact_no,:presence => true,  :numericality => {:only_integer => true} , :length => {:minimum => 6}  , :uniqueness => true , :reduce => true
+
   validate :at_least_one_item_should_be_selected_to_donate
-  validates :email , :format =>{ :with => /^([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})$/i,}
 
 
   def at_least_one_item_should_be_selected_to_donate

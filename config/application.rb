@@ -38,5 +38,8 @@ module Parivartann
 
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
+
+    #Validators aren't on lazy-load anymore. Needs to be added to load custom validates_each method
+    config.autoload_paths += %W(#{config.root}/lib)
   end
 end
