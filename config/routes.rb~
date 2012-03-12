@@ -1,5 +1,13 @@
 Parivartann::Application.routes.draw do
 
+  ActiveAdmin.routes(self)
+
+  devise_for :admin_users, ActiveAdmin::Devise.config
+
+  resources :donations
+
+  get "donations/new"
+
   root :to => 'main#home'
 
   get "main/home"
@@ -11,6 +19,10 @@ Parivartann::Application.routes.draw do
   get "main/events"
 
   get "main/gallery"
+
+  get "main/videos"
+
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -59,8 +71,8 @@ Parivartann::Application.routes.draw do
   #     resources :products
   #   end
 
-  # You can have the root of your site routed with "root"
-  # just remember to delete public/index.html.
+  # oot"
+  # just remember to delete public/index.html.You can have the root of your site routed with "r
   # root :to => "welcome#index"
 
   # See how all your routes lay out with "rake routes"

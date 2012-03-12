@@ -15,4 +15,7 @@ class MainController < ApplicationController
   def gallery
   end
 
+  def videos
+  end
+
 end

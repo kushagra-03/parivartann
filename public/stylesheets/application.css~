@@ -168,7 +168,6 @@ display:block;
 
 #form .fields input{
 	width:350px;
-	height:15px;
 	margin: 3px;
 	color:gray;
 }

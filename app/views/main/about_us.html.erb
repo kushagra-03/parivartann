@@ -23,28 +23,31 @@
 	    <%= image_tag('reddit_64.png', :class=>"rightbar_image") %>
 	  </a>
 
-	  <a href="http://www.blogger.com/profile/16495428436433190597 ">
+	  <a href="http://www.blogger.com/profile/16495428436433190597">
 	    <%= image_tag('blogger_64.png', :class=>"rightbar_image") %>
 	  </a>
 
-          <a href="http://www.blogger.com/profile/16495428436433190597 ">
+          <a href="http://www.youtube.com/user/Parivatann">
 	    <%= image_tag('youtube_64.png', :class=>"rightbar_image") %>
 	  </a>
 	</div>
 
 	<div id="leftbar">
-		 <a href="http://www.facebook.com">
-		    <%= image_tag('post-it-note-donate.jpg', :class=>"leftbar_image") %>
-		  </a>
+		  <b>
+		  <div id="donate_link" class="leftbar_image">
+			<%= link_to "DONATE!", :controller => "donations" , :action => "new"%>
+		  </div>
 
-		  <a href="http://www.twitter.com">
-		    <%= image_tag('Post-it-note-updates.jpg', :class=>"leftbar_image") %>
-		  </a>
+		  <div id="updates_link" class="leftbar_image">
+			<%= link_to "UPDATES", :controller => "main" , :action => "events"%>
+		  </div>
 
-		  <a href="http://www.reddit.com">
-		    <%= image_tag('Post-it-note-videos.jpg', :class=>"leftbar_image") %>
-		  </a>
+		   <div id="videos_link" class="leftbar_image">
+			<%= link_to "  VIDEOS", :controller => "main" , :action => "videos"%>
+		  </div>
+		   </b>
 	</div>
+
 
 </div>
 <div id="header_tags">
@@ -60,11 +63,11 @@
 
  <div id="content">
 	<div id="header_image">
-		  <a href="http://localhost:3000">
-	    		<%= image_tag('parivartann_logo.gif', :class=>"header_image") %><b>CHANGE FOR BETTER</b>
-       	  </a>
+	    		<%= link_to image_tag('parivartann_logo.gif', :class=>"header_image"), :controller => "main", :action => "home"%>
+			<b>CHANGE FOR BETTER</b>
 	</div>
 	<p>
+	</br>
 	'Parivartann', as the name suggests, is an initiative towards bringing a change in this society full of differences. Four old friends decided
      they'd help bring a change to the society, and that is how 'Parivartann' came into existence. They decided to bridge the gaps between our
      societies. They decided to fund the education of some innocent little children robbed off their rights to learn to read and write and grow

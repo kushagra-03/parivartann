@@ -1,13 +1,5 @@
 Parivartann::Application.routes.draw do
 
-  ActiveAdmin.routes(self)
-
-  devise_for :admin_users, ActiveAdmin::Devise.config
-
-  resources :donations
-
-  get "donations/new"
-
   root :to => 'main#home'
 
   get "main/home"
@@ -19,6 +11,16 @@ Parivartann::Application.routes.draw do
   get "main/events"
 
   get "main/gallery"
+
+  get "main/videos"
+
+  ActiveAdmin.routes(self)
+
+  devise_for :admin_users, ActiveAdmin::Devise.config
+
+  resources :donations
+
+  get "donations/new"
 
 
 
