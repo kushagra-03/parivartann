@@ -9,56 +9,8 @@
 
 <body>
 <div id = "allContent">
-<div id="sidebar">
-	<div id="rightbar">
-	  <a href="http://www.facebook.com/profile.php?id=100001813455620 ">
-	    <%= image_tag('facebook_64.png', :class=>"rightbar_image") %>
-	  </a>
-
-	  <a href="http://twitter.com/#!/4parivartaNN ">
-	    <%= image_tag('twitter_64.png', :class=>"rightbar_image") %>
-	  </a>
-
-	  <a href="http://www.reddit.com">
-	    <%= image_tag('reddit_64.png', :class=>"rightbar_image") %>
-	  </a>
-
-	  <a href="http://www.blogger.com/profile/16495428436433190597">
-	    <%= image_tag('blogger_64.png', :class=>"rightbar_image") %>
-	  </a>
-
-          <a href="http://www.youtube.com/user/Parivatann">
-	    <%= image_tag('youtube_64.png', :class=>"rightbar_image") %>
-	  </a>
-	</div>
-
-	<div id="leftbar">
-		  <b>
-		  <div id="donate_link" class="leftbar_image">
-			<%= link_to "DONATE!", :controller => "donations" , :action => "new"%>
-		  </div>
-
-		  <div id="updates_link" class="leftbar_image">
-			<%= link_to "UPDATES", :controller => "main" , :action => "events"%>
-		  </div>
-
-		   <div id="videos_link" class="leftbar_image">
-			<%= link_to "  VIDEOS", :controller => "main" , :action => "videos"%>
-		  </div>
-		   </b>
-	</div>
-
-
-</div>
-<div id="header_tags">
-		<ul>
-			<li id= "selected"><%= link_to "About us" , :controller => "main" , :action => "about_us"%></li>
-			<li><%= link_to "Contact Us" , :controller => "main", :action => "contact_us"%></li>
-			<li><%= link_to "Events" , :controller => "main", :action => "events"%></li>
-			<li><%= link_to "Gallery" , :controller => "main", :action => "gallery"%></li>
-		</ul>
-</div>
-
+<%= render :partial => "sidebar" %>
+<%= render :partial => "header_tags" %>
 <div id="background">
 
  <div id="content">

@@ -18,4 +18,7 @@ class MainController < ApplicationController
   def videos
   end
 
+  def team
+  end
+
 end

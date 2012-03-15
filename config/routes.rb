@@ -14,6 +14,8 @@ Parivartann::Application.routes.draw do
 
   get "main/videos"
 
+  get "main/team"
+
   ActiveAdmin.routes(self)
 
   devise_for :admin_users, ActiveAdmin::Devise.config

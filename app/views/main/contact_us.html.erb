@@ -7,57 +7,8 @@
 
 <body>
 <div id="allContent">
-<div id="sidebar">
-	<div id="rightbar">
-	  <a href="http://www.facebook.com/profile.php?id=100001813455620 ">
-	    <%= image_tag('facebook_64.png', :class=>"rightbar_image") %>
-	  </a>
-
-	  <a href="http://twitter.com/#!/4parivartaNN ">
-	    <%= image_tag('twitter_64.png', :class=>"rightbar_image") %>
-	  </a>
-
-	  <a href="http://www.reddit.com">
-	    <%= image_tag('reddit_64.png', :class=>"rightbar_image") %>
-	  </a>
-
-	  <a href="http://www.blogger.com/profile/16495428436433190597 ">
-	    <%= image_tag('blogger_64.png', :class=>"rightbar_image") %>
-	  </a>
-
-          <a href="http://www.youtube.com/user/Parivatann">
-	    <%= image_tag('youtube_64.png', :class=>"rightbar_image") %>
-	  </a>
-	</div>
-
-	<div id="leftbar">
-		  <b>
-		  <div id="donate_link" class="leftbar_image">
-			<%= link_to "DONATE!", :controller => "donations" , :action => "new"%>
-		  </div>
-
-		  <div id="updates_link" class="leftbar_image">
-			<%= link_to "UPDATES", :controller => "main" , :action => "events"%>
-		  </div>
-
-		   <div id="videos_link" class="leftbar_image">
-			<%= link_to "  VIDEOS", :controller => "main" , :action => "videos"%>
-		  </div>
-		   </b>
-	</div>
-
-
-</div>
-<div id="header_tags">
-
-		<ul>
-			<li><%= link_to "About us" , :controller => "main" , :action => "about_us"%></li>
-			<li id="selected"><%= link_to "Contact Us" , :controller => "main", :action => "contact_us"%></li>
-			<li><%= link_to "Events" , :controller => "main", :action => "events"%></li>
-			<li><%= link_to "Gallery" , :controller => "main", :action => "gallery"%></li>
-		</ul>
-</div>
-
+<%= render :partial => "sidebar" %>
+<%= render :partial => "header_tags" %>
 <div id="background">
  	<div id="content">
 
@@ -66,7 +17,96 @@
 			<b>CHANGE FOR BETTER</b>
 		</div>
 
-		<div id="team_profile">
+		<div class="team">
+		<ul>
+			<li>
+				<div class="member_profile">
+					<div id="profile_photo" class="align_left">
+					<a target="_blank" href="http://www.facebook.com/shubhendu.shikhar.singh" >
+	    				<%= image_tag('shubhendu.jpg') %>
+	  				</a>
+					</div>
+					<div id="profile_details" class="align_right">
+					<div class="heading">Shubhendu</div>
+					<div class="heading">Flacwoods, New Delhi</div>
+					<div class="info">
+	 I always wanted an NPO/NGO for the less fortunate class by the bit fortunate class, who always knew what, little support meant to them. As I knew what troubles people face if their basic education is poor. We want to be a NPO/NGO by the common people for the common people!
+					</div>
+					</div>
+				</div>
+			</li>
+
+			<li>
+				<div class="member_profile">
+					<div id="profile_details" class="align_left">
+					<div class="heading">Navin Mukesh</div>
+					<div class="heading">NITIE, Powai</div>
+					<div class="info">
+	I feel this as my responsibility to be part of parivartann and to do my bit for the society being citizen of a needy nation.
+					</div>
+					</div>
+					<div id="profile_photo" class="align_right">
+					<a target="_blank" href="http://www.facebook.com/profile.php?id=100000960895628" >
+	    				<%= image_tag('navin.jpg') %>
+	  				</a>
+					</div>
+
+				</div>
+			</li>
+
+				<li>
+				<div class="member_profile">
+					<div id="profile_photo" class="align_left">
+					<a target="_blank" href="http://www.facebook.com/profile.php?id=100000981445229" >
+	    				<%= image_tag('archana.jpg') %>
+	  				</a>
+					</div>
+					<div id="profile_details" class="align_right">
+					<div class="heading">Archana Asava</div>
+					<div class="heading">HomeMaker, Surat</div>
+					<div class="info">
+	This is initiative by the educated, young and responsible youths of the nation. We had full confidence in our team and we knew we can work and perform best when we work independently , that is reason why Parivartann change for better was born!
+					</div>
+					</div>
+				</div>
+			</li>
+
+			<li>
+				<div class="member_profile">
+					<div id="profile_details" class="align_left">
+					<div class="heading">Bimal Tej</div>
+					<div class="heading">TCS, Mumbai</div>
+					<div class="info">
+	Society needs change and let the the change be for better. We care so we are there.
+					</div>
+					</div>
+					<div id="profile_photo" class="align_right">
+					<a target="_blank" href="http://www.facebook.com/bimalchalasani" >
+	    				<%= image_tag('bimal.jpg') %>
+	  				</a>
+					</div>
+				</div>
+			</li>
+
+
+				<li>
+				<div class="member_profile">
+					<div id="profile_photo" class="align_left">
+					<a target="_blank" href="http://www.facebook.com/prachurjya.dutta" >
+	    				<%= image_tag('pd.jpg') %>
+	  				</a>
+					</div>
+					<div id="profile_details" class="align_right">
+					<div class="heading">Prachurjya Dutta</div>
+					<div class="heading">Infosys, Hyderabad</div>
+					<div class="info">
+	My friends started Parivartann change for better and I thought its great cause , I joined in . I believe in them.They will make a difference as “they cared so, they were there. “
+					</div>
+					</div>
+				</div>
+			</li>
+
+		</ul>
 		</div>
 	</div>
 </div>
