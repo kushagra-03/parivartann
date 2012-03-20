@@ -7,7 +7,30 @@
 
 <body>
 <div id="allContent">
+<<<<<<< HEAD
+<div id="sidebar">
+	<div id="rightbar">
+	  <a href="http://www.facebook.com/profile.php?id=100001813455620 " target="_blank">
+	    <%= image_tag('facebook_64.png', :class=>"rightbar_image") %>
+	  </a>
 
+	  <a href="http://twitter.com/#!/4parivartaNN " target="_blank">
+	    <%= image_tag('twitter_64.png', :class=>"rightbar_image") %>
+	  </a>
+
+	  <a href="http://www.reddit.com" target="_blank">
+	    <%= image_tag('reddit_64.png', :class=>"rightbar_image") %>
+	  </a>
+
+	  <a href="http://www.blogger.com/profile/16495428436433190597 " target="_blank">
+	    <%= image_tag('blogger_64.png', :class=>"rightbar_image") %>
+	  </a>
+
+          <a href="http://www.youtube.com/user/Parivatann" target="_blank">
+	    <%= image_tag('youtube_64.png', :class=>"rightbar_image") %>
+	  </a>
+	</div>
+=======
 <%= render :partial => "sidebar" %>
 <%= render :partial => "header_tags" %>
 <div id="background">

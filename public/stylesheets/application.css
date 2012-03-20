@@ -15,7 +15,11 @@ body{
 	color: white;
 	line-height: 1.6em;
 	font-family: 'CabinSketch', Helvetica, SANS-SERIF;
-    	font-size: medium ;
+    font-size: medium ;
+}
+
+#error_fields{
+    color: red;
 }
 
 li {
