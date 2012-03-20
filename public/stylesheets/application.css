@@ -1,3 +1,4 @@
+
 @font-face {
 font-family: 'CabinSketch';
 src: url('../images/CabinSketch-Regular.otf');
@@ -21,6 +22,10 @@ body{
     color: red;
 }
 
+li {
+	list-style:none;
+}
+
 #header_tags {
 	z-index:10;
 	background-image: url(../images/header.gif);
@@ -34,9 +39,7 @@ body{
 }
 
 #header_tags li {
-	list-style:none;
 	float: right;
-    	color:white;
 	margin-top:10px;
 	margin-right:10px;
 }
@@ -49,7 +52,7 @@ body{
 	position: relative;
 	top: 0.5px;
 	padding:2px;
-	background: grey;
+	background: brown;
 }
 
 #background{
@@ -74,7 +77,7 @@ body{
 a:link {color: white; text-decoration: none; }
 a:active {color: white; text-decoration: none; }
 a:visited {color: white; text-decoration: none; }
-a:hover {color: black; text-decoration: none; }
+a:hover {color: gray; text-decoration: none; }
 
 #header_image{
 height:140px;
@@ -120,9 +123,7 @@ display:block;
     	height: 70px;
     	width: 70px;
     	margin-top: 40px;
-	border:2px solid;
-	color:grey;
-
+	border:2px solid gray;
 
 }
 
@@ -173,8 +174,7 @@ display:block;
 #form .fields input{
 	width:350px;
 	height:15px;
-	margin: 3px;
-	color:gray;
+	margin: 3px auto 3px auto;
 }
 
 #form .fields label {
@@ -190,13 +190,56 @@ display:block;
 	font-size: medium;
 }
 
-#donation_submit {
-	margin:20px auto 0 auto;
+#submit {
+	margin:5px auto 0 auto;
 	position :center;
-	max-width:100px;
-
 }
 
 .imgur-album {
     background-color: transparent;
+}
+
+.team {
+	display:block;
+	margin:20px 10px;
+}
+
+.member_profile {
+	display:block;
+	padding:5px;
+	width:600px;
+	height:130px;
+	margin-bottom:50px;
+}
+
+.team #profile_photo {
+	border: 10px double pink;
+	margin-right:10px;
+	width:120px;
+	height:120px;
+	display:inline;
+}
+
+.team .align_left {
+		display:inline;
+		float:left;
+}
+
+.team .align_right {
+		display:inline;
+		float:right;
+}
+
+.team #profile_details {
+	font-size:small;
+	line-height: 1.6em;
+	width:450px;
+	height:150px;
+}
+
+
+.team .heading {
+	display:block;
+	font-size:180%;
+	margin:5px;
 }
