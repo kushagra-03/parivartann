@@ -15,4 +15,10 @@ class MainController < ApplicationController
   def gallery
   end
 
+  def videos
+  end
+
+  def team
+  end
+
 end
