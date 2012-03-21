@@ -1,4 +1,5 @@
 
+
 @font-face {
 font-family: 'CabinSketch';
 src: url('../images/CabinSketch-Regular.otf');
@@ -242,4 +243,7 @@ display:block;
 	display:block;
 	font-size:180%;
 	margin:5px;
+}
+#flash {
+    margin-top: 100px;
 }
