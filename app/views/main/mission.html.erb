@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>Parivartan</title>
+<%= stylesheet_link_tag "application" %>
+</head>
+
+<body>
+
+<div id="allContent">
+
+<%= render :partial => "sidebar" %>
+<%= render :partial => "header_tags" %>
+<div id="background">
+ <div id="content">
+
+		<div id="header_image">
+	    		<%= link_to image_tag('parivartann_logo.gif', :class=>"header_image"), :controller => "main", :action => "home"%>
+			<b>CHANGE FOR BETTER</b>
+		</div>
+   <div id="form">
+	<h1>Our Vision</h1>
+   <ul>
+     <li>A well <b>educated</b> , <b>responsible</b> and <b>aware</b> <b>India</b></li>
+   </ul>
+	<h1>Our Mission</h1>
+   <ul>
+     <p> <b>Parivartann</b> is a non profit non governmental organisation working to provide equal access to quality education for each child.</p>
+     <p>Aims at educating children in places where they are bound by <b>financial</b>, <b>physical</b>, <b>social</b> or <b>geographical</b> conditions</p>
+     <p> We believe that education is the fundamental right of every child and that education would help empowering the society</p>
+   </ul>
+	<h1>Our Goal</h1>
+   <ul>
+     <p> Our goal is to be financially strong and establish an effective network of members in india so that we can help in educating less priviledged children from any part of our country.</p>
+   </ul>
+   </div>
+ </div>
+</div>
+<%= render :partial => "footer" %>
+</div>
+</body>
+</html>

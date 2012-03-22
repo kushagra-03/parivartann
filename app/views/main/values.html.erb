@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Parivartan</title>
+<%= stylesheet_link_tag "application" %>
+</head>
+
+<body>
+
+<div id="allContent">
+
+<%= render :partial => "sidebar" %>
+<%= render :partial => "header_tags" %>
+<div id="background">
+ <div id="content">
+
+		<div id="header_image">
+	    		<%= link_to image_tag('parivartann_logo.gif', :class=>"header_image"), :controller => "main", :action => "home"%>
+			<b>CHANGE FOR BETTER</b>
+		</div>
+   <div id="form">
+	<h1>Our Values</h1>
+   <ul>
+     <li>Ensuring participation</li>
+     <li> Effective networking</li>
+     <li> Transparency and Accountability</li>
+     <li> Credibility</li>
+     <li> Promoting and adapting innovative learning</li>
+	<li> Dynamism and professionalism</li>
+	<li> Committed towards achieving quality education for all</li>
+	<li> Gender responsive</li>
+   </ul>
+   </div>
+ </div>
+</div>
+<%= render :partial => "footer" %>
+</div>
+</body>
+</html>

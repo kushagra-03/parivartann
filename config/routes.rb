@@ -12,9 +12,13 @@ Parivartann::Application.routes.draw do
 
   get "main/gallery"
 
-  get "main/videos"
+  get "main/join_us"
 
   get "main/team"
+
+  get "main/mission"
+
+ get "main/values"
 
   ActiveAdmin.routes(self)
 

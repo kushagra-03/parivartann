@@ -164,6 +164,11 @@ display:block;
 	z-index:10;
 }
 
+#footer_image p {
+		text-align:center;
+		padding-top:70px;
+}
+
 
 #form {
 	display:block;
@@ -250,6 +255,7 @@ display:block;
 	width:450px;
 	height:150px;
 }
+
 
 
 .heading {

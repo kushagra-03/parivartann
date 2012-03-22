@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>Parivartan</title>
+<%= stylesheet_link_tag "application" %>
+</head>
+
+<body>
+
+<div id="allContent">
+
+<%= render :partial => "sidebar" %>
+<%= render :partial => "header_tags" %>
+<div id="background">
+ <div id="content">
+
+		<div id="header_image">
+	    		<%= link_to image_tag('parivartann_logo.gif', :class=>"header_image"), :controller => "main", :action => "home"%>
+			<b>CHANGE FOR BETTER</b>
+		</div>
+   <div id="form">
+	<h1>Stuff you can help us with</h1>
+   <ul>
+	<li><b>A single beam 'alone' cannot support a great structure</b></li></br>
+     <li>You can join <b>Parivartann</b> by paying a one time registration fee along with 6 monthly / yearly membership fee. For more information on joining or donating funds to Parivartann please send a mail to <b>parivartann@gmail.com</b></li>
+
+   </ul>
+   </div>
+ </div>
+</div>
+<%= render :partial => "footer" %>
+</div>
+</div>
+</body>
+</html>

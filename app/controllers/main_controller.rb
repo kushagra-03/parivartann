@@ -15,7 +15,13 @@ class MainController < ApplicationController
   def gallery
   end
 
-  def videos
+  def join_us
+  end
+
+  def mission
+  end
+
+  def values
   end
 
 end
