@@ -7,30 +7,7 @@
 
 <body>
 <div id="allContent">
-<<<<<<< HEAD
-<div id="sidebar">
-	<div id="rightbar">
-	  <a href="http://www.facebook.com/profile.php?id=100001813455620 " target="_blank">
-	    <%= image_tag('facebook_64.png', :class=>"rightbar_image") %>
-	  </a>
 
-	  <a href="http://twitter.com/#!/4parivartaNN " target="_blank">
-	    <%= image_tag('twitter_64.png', :class=>"rightbar_image") %>
-	  </a>
-
-	  <a href="http://www.reddit.com" target="_blank">
-	    <%= image_tag('reddit_64.png', :class=>"rightbar_image") %>
-	  </a>
-
-	  <a href="http://www.blogger.com/profile/16495428436433190597 " target="_blank">
-	    <%= image_tag('blogger_64.png', :class=>"rightbar_image") %>
-	  </a>
-
-          <a href="http://www.youtube.com/user/Parivatann" target="_blank">
-	    <%= image_tag('youtube_64.png', :class=>"rightbar_image") %>
-	  </a>
-	</div>
-=======
 <%= render :partial => "sidebar" %>
 <%= render :partial => "header_tags" %>
 <div id="background">
@@ -53,6 +30,7 @@
 					<div id="profile_details" class="align_right">
 					<div class="heading">Shubhendu</div>
 					<div class="heading">Flacwoods, New Delhi</div>
+					<div class="heading">+91- 8860638679</div>
 					<div class="info">
 	 I always wanted an NPO/NGO for the less fortunate class by the bit fortunate class, who always knew what, little support meant to them. As I knew what troubles people face if their basic education is poor. We want to be a NPO/NGO by the common people for the common people!
 					</div>
@@ -65,6 +43,7 @@
 					<div id="profile_details" class="align_left">
 					<div class="heading">Navin Mukesh</div>
 					<div class="heading">NITIE, Powai</div>
+					<div class="heading">+91- 8108347220</div>
 					<div class="info">
 	I feel this as my responsibility to be part of parivartann and to do my bit for the society being citizen of a needy nation.
 					</div>
@@ -74,8 +53,6 @@
 	    				<%= image_tag('navin.jpg') %>
 	  				</a>
 					</div>
->>>>>>> 523442cbfed6b97c9f3eed7618e4b3285f1a42d6
-
 				</div>
 			</li>
 
@@ -101,6 +78,7 @@
 					<div id="profile_details" class="align_left">
 					<div class="heading">Bimal Tej</div>
 					<div class="heading">TCS, Mumbai</div>
+					<div class="heading">+91-7411411306</div>
 					<div class="info">
 	Society needs change and let the the change be for better. We care so we are there.
 					</div>
@@ -124,8 +102,27 @@
 					<div id="profile_details" class="align_right">
 					<div class="heading">Prachurjya Dutta</div>
 					<div class="heading">Infosys, Hyderabad</div>
+					<div class="heading">+91- 9678010535</div>
 					<div class="info">
 	My friends started Parivartann change for better and I thought its great cause , I joined in . I believe in them.They will make a difference as “they cared so, they were there. “
+					</div>
+					</div>
+				</div>
+			</li>
+
+				<li>
+				<div class="member_profile">
+					<div id="profile_photo" class="align_right">
+					<a target="_blank" href="http://www.facebook.com/sam33r999"" >
+	    				<%= image_tag('sameer.jpg') %>
+	  				</a>
+					</div>
+					<div id="profile_details" class="align_left">
+					<div class="heading">Sameer K. Dohare</div>
+					<div class="heading">M.Tech from NIT , (SVNIT),SURAT</div>
+					<div class="heading">+91- 9427808869</div>
+					<div class="info">
+	I have joined Parivartann to do my duties. You can run but not hide. One day you will have to face yourself then you will have to answer. What have YOU done for your society
 					</div>
 					</div>
 				</div>

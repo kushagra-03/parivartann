@@ -19,6 +19,10 @@
 			<b>CHANGE FOR BETTER</b>
 		</div>
 
+		<% if flash[:notice] %>
+    		<div id="notice"><%= flash[:notice] %></div>
+		<% end %>
+
 	<div id = "images">
 	<iframe class="imgur-album" width="100%" height="470px" frameborder="0" src="http://imgur.com/a/DG0nF/embed"></iframe>
 	</div>

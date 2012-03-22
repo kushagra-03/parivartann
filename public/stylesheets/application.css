@@ -100,6 +100,13 @@ display:block;
 	border:5px ridge;
 }
 
+#notice {
+	position:fixed top;
+	border:5px solid white;
+	z-index:100;
+	height:50px;
+
+}
 #images {
 	margin: 10px;
 	border:5px ridge;
@@ -115,7 +122,7 @@ display:block;
 
 #rightbar {
     float: right;
-	width: 70px;
+	width: 80px;
 	height: 500px;
 }
 
@@ -208,7 +215,7 @@ display:block;
 	display:block;
 	padding:5px;
 	width:600px;
-	height:130px;
+	height:150px;
 	margin-bottom:50px;
 }
 
@@ -233,6 +240,7 @@ display:block;
 .team #profile_details {
 	font-size:small;
 	line-height: 1.6em;
+	padding:5px;
 	width:450px;
 	height:150px;
 }
@@ -241,5 +249,5 @@ display:block;
 .team .heading {
 	display:block;
 	font-size:180%;
-	margin:5px;
+	margin-bottom:5px;
 }
