@@ -1,4 +1,3 @@
-
 @font-face {
 font-family: 'CabinSketch';
 src: url('../images/CabinSketch-Regular.otf');
@@ -86,6 +85,10 @@ display: block;
 
 }
 
+#header_image b{
+margin-left:30px;
+}
+
 #header_image b {
 display:block;
 }
@@ -101,10 +104,13 @@ display:block;
 }
 
 #notice {
-	position:fixed top;
-	border:5px solid white;
+	position:fixed center;
+	color:yellow;
 	z-index:100;
-	height:100px;
+	max-height:40px;
+	padding:5px;
+	margin:5px;
+	text-align: center;
 
 }
 #images {
@@ -127,10 +133,10 @@ display:block;
 }
 
 .rightbar_image  {
-    	height: 70px;
-    	width: 70px;
+    	max-height: 70px;
+    	width: 80px;
     	margin-top: 40px;
-	border:2px solid gray;
+	border: 2px solid gray;
 
 }
 
@@ -141,12 +147,12 @@ display:block;
 }
 
 .leftbar_image {
-	max-height: 70px;
-    	width: 70px;
+	max-height: 90px;
+    	width: 80px;
     	margin-top: 40px;
 	border: 5px double gray;
 	text-align:center;
-	padding:20px 0 20px 0;
+	padding: 20px 0 20px 0;
 }
 
 #footer_image {
@@ -246,7 +252,7 @@ display:block;
 }
 
 
-.team .heading {
+.heading {
 	display:block;
 	font-size:180%;
 	margin-bottom:5px;
